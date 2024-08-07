@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "firepinnew"
+name = "grpc-protobuffs-test"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Jaw <tuyweber@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
