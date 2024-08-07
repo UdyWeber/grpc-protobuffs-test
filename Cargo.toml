@@ -1,0 +1,16 @@
+[package]
+name = "firepinnew"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "test-server"
+path = "src/server.rs"
+
+[dependencies]
+tonic = "0.11.0"
+prost = "0.12.6"
+tokio = { version = "1.38.0", features = ["macros", "rt-multi-thread"] }
+
+[build-dependencies]
+tonic-build = "0.11.0"
